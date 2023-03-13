@@ -1,7 +1,10 @@
 body{
     height: 1000vh;
     background-color: rgb(20,21,28); 
-}    
+    margin:0px;
+} 
+
+
 .bg {
     width:100%;
     height:900px;
@@ -55,9 +58,10 @@ header{
 
 img{
     margin-top: 0px;
-    padding: 0;
+    padding-top: 2%;
+    padding-bottom: 1%;
     box-sizing: border-box;
-    max-width: 60px;
+    max-width: 10%;
 }
 
 .navbar .link{
@@ -76,26 +80,32 @@ img{
      transform: scale(1.1);
 }
 
+
 .box1{
     display: flex;
     flex-direction: row;
     width:50%;
-    height:500px;
+    height:5.6%;
     justify-content: space-between;
     align-items: center;
     background-color: #F76650;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
-   
-    padding-left: 20px;
-    font-size: 20px;
+    overflow: hidden;
+    font-size: 100%;
    
 }
 
 .box1 p{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:white;
-    padding-right:0px;
+    left:0;
+    right:0;
+    max-width:100%;
+    max-height:100%;
+    padding-left: 5%;
+  
+
 }
 
  .box1 img{
@@ -103,6 +113,7 @@ img{
     right:0;
     max-width:80%;
     max-height:100%;
+    padding: 10%;
 }
 
 
